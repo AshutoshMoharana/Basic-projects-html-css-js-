@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <title>CURENT TIME</title>
+    <script>
+
+
+
+        let time;
+
+        setInterval(() => {
+            a = new Date();
+
+            time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+            document.getElementById('time').innerHTML = time;
+        }, 1000);
+
+    </script>
+    
+
+
+</head>
+<style>
+
+
+     body {
+        background-image: url("background for css.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+
+
+
+    div{
+        color: white;
+        text-align: center;
+        margin-top: 20vw;
+        font-family:'digital-clock-font';
+
+        
+    }
+
+
+
+
+
+
+
+
+
+</style>
+
+<body>
+    <div class="container"></div>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Current Time is: <span id="time"></span></h1>
+            <p class="lead">This is a site for curent date and time zone</p>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
