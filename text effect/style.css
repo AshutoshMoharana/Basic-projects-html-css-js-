@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+div{
+    position: relative;
+    background-color: red;
+    height: 50vh;
+    width: 50%;
+}
+
+.heading{
+    position: absolute;
+    color: black;
+    margin-top: 10px;
+}
+
+.textarea{
+    position: absolute;
+    color: black;
+    top:0;
+
+}
+.button{
+    position: absolute;
+    color: black;
+    bottom: 0;
+    
+
+}
