@@ -10,23 +10,23 @@
   <body>
 
 
-    <div id = "container">
+    
       <h1 class = "heading" >Text effect</h1>
 
       <textarea class="textarea"   name="text will appear here" id="container" cols="30" rows="10">
       </textarea>
-
       <button class="button" onclick=" texteffect()">click me</button>
-    </div>
 
-
-
-    <script>
-      var i = 0;
-      var text =
+      
+      
+      
+      
+      <script>
+        var i = 0;
+        var text =
         "wellcome to MOGHARA ROSEI----- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem fugit, sunt fugiat itaque natus reprehenderit aperiam, quae est suscipit dolore possimus aspernatur tempora molestias ipsa, voluptatum quos debitis sit nesciunt!";
-      var speed = 100;
-
+        var speed = 100;
+        
       function texteffect() {
         if (i < text.length) {
           document.getElementById("container").innerHTML += text.charAt(i);
@@ -34,6 +34,7 @@
           setTimeout(texteffect, speed);
         }
       }
-    </script>
+      </script>
   </body>
-</html>
+  </html>
+  

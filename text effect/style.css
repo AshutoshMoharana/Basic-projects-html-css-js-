@@ -1,32 +1,88 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-div{
-    position: relative;
+body {
+  background-color: red;
+  height: 32vh;
+  width: 20%;
+  text-align: center;
+  margin-left: 37rem;
+}
+
+.heading {
+  text-align: center;
+  margin-left: 13rem;
+  margin-top: 10px;
+  margin-left: 0;
+}
+.textarea {
+  border-radius: 3rem;
+  padding: 9px;
+  margin-top: 0rem;
+  margin-left: 0rem;
+  border-width: 1rem;
+  border-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  cursor: pointer;
+  text-align: center;
+}
+
+/* @media (min-width: 1048px) {
+  body {
     background-color: red;
-    height: 50vh;
-    width: 50%;
-}
+    height: 32vh;
+    width: 27%;
+    text-align: center;
+    margin-left: 25rem;
+  }
+ /* } */
 
-.heading{
-    position: absolute;
-    color: black;
-    margin-top: 10px;
-}
+@media (max-width: 790px) {
+  body {
+    background-color: red;
+    height: 32vh;
+    width: 35%;
+    text-align: center;
+    margin-left: 17rem;
+  }}
+ @media all and (min-width: 1024px) and (max-width: 1280px) {
+    body {
+  background-color: red;
+  height: 32vh;
+  width: 27%;
+  text-align: center;
+  margin-left: 25rem;
+  }}
 
-.textarea{
-    position: absolute;
-    color: black;
-    top:0;
+ @media all and (min-width: 768px) and (max-width: 1024px) {
+    body {
+  background-color: red;
+  height: 32vh;
+  width: 27%;
+  text-align: center;
+  margin-left: 25rem;
+ } }
 
-}
-.button{
-    position: absolute;
-    color: black;
-    bottom: 0;
-    
+ @media all and (min-width: 480px) and (max-width: 768px) {body {
+    background-color: red;
+    height: 37vh;
+    width: 37%;
+    text-align: center;
+    margin-left: 17rem;
+ }}
 
-}
+ @media all and (max-width: 480px) {
+     body {
+        background-color: red;
+        height: 37vh;
+        width: 58%;
+        text-align: center;
+        margin-left: 7rem;
+ }}
