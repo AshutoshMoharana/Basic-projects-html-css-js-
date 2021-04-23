@@ -12,10 +12,9 @@
 // var $myName = 'thapatechnical';
 // console.log($myName);
 
-
 // 2.Data types in javascript :----------------------
 
-// 1.checking string type ; 
+// 1.checking string type ;
 // var myName = 'Ashutosh Moharana';
 // console.log(myName);
 
@@ -39,7 +38,6 @@
 // console.log(false+true);
 // console.log(false-true);
 
-
 // difference between null vs undefined?
 // Ans:.null means no value (blank object) and undefined means variable with no assign value(and its typeof is undefined).ex:
 
@@ -48,10 +46,9 @@
 // console.log(imstandby);
 // console.log(typeof(null));
 
-
 // 2.(qn) what is NaN?
 // Ans:NaN is a  property of the global object.
-// in other words , it is a variable in global scope . 
+// in other words , it is a variable in global scope .
 // The initial value of NaN is Not-A-Number.
 // example:
 // var myphonenumber = 8247374;
@@ -63,5 +60,32 @@
 // if(isNaN(myname)){
 //     console.log(('please enter a valid phone number'));
 // }
+// console.log(NaN === NaN);
+// console.log(Number.NaN === Nan);
+// console.log(isNan(NaN));
+// console.log(isNaN(Number.NaN));
+// console.log(Number.isNaN(NaN));
+
+// 3.Expressions and operators:_________________________
+// operators : 
+// .Assignment operators 
+// ex :
+// var x = 5;
+// var y = 6;
+// console.log('is both the x and y are equal or not'+ x === y);
+// .Arithmetic operators.  ex:
+
+// console.log(3+3);
+// console.log(10 - 5);
+// console.log(20/5);
+// console.log(5*6);
+
+// Increment and decrement operators ex:
+// operator: x++ or ++x or x-- or --x
+// .comparison operators
+// .logical operators
+// .string operators
+// .conditional (ternary) operators
+
 
 
