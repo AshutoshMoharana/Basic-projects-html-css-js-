@@ -67,12 +67,13 @@
 // console.log(Number.isNaN(NaN));
 
 // 3.Expressions and operators:_________________________
-// operators : 
-// .Assignment operators 
+// operators :
+// .Assignment operators
 // ex :
 // var x = 5;
 // var y = 6;
 // console.log('is both the x and y are equal or not'+ x === y);
+
 // .Arithmetic operators.  ex:
 
 // console.log(3+3);
@@ -81,11 +82,49 @@
 // console.log(5*6);
 
 // Increment and decrement operators ex:
-// operator: x++ or ++x or x-- or --x
-// .comparison operators
+//   operator: x++ or ++x or x-- or --x
+// below example is for postfix opearators
+// var num = 15;
+// var newnum = num++;
+// console.log(num);
+// console.log(newnum);
+
+// below example is for prefix operators
+// var num = 15;
+// var newnum = ++num;
+// console.log(num);
+// console.log(newnum);
+
+// .comparison operators----------------------------
+// var a = 30;
+// var b = 10;
+// console.log(a == b);
+// console.log(a != b);
+// console.log(a >= b);
+// console.log(a <= b);
 // .logical operators
-// .string operators
-// .conditional (ternary) operators
+// and operators (&&):here if any logic is false then its showing false;
+
+// var a = 30;
+// var b = -20;
+// console.log(a > b && b > 0);
+// or operator (||)____ if any logic in this is true then its true and all are false then its showing false
+// console.log(a > b && b > 0 || a > b || b > 0);
+
+//logical not operator(!)ex;
+// console.log(!((a>0)|| (b>0)));
+// console.log(!(false));
+
+// .string operators-------------------------------
+// for ex:
+// var newname = 'ahsdfjdfj';
+// console.log(newname + ' ashutosh');
 
 
-
+// .conditional (ternary) operators---------
+// syntax for conditional operator:
+// if condition is true ,expression is executed
+// if condition is false , expression is executed
+// ex:
+// int a, b, c;
+// c = a>b?a:b//if a>b'execute'a,else b and assign the value to c
