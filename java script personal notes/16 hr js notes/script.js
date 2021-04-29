@@ -120,7 +120,6 @@
 // var newname = 'ahsdfjdfj';
 // console.log(newname + ' ashutosh');
 
-
 // .conditional (ternary) operators---------
 // syntax for conditional operator:
 // if condition is true ,expression is executed
@@ -133,7 +132,6 @@
 // console.log(3**3); out put 27
 // .what will be the output , when we add a number and a string?
 // console.log('ashutosh'+ 3); output: ashutosh3
-
 
 // .write a program to swap two numbers?
 
@@ -187,7 +185,7 @@
 //     console.log('the year'+ year + 'is not a leap year');
 // }
 // question. what is truthty and falsy values in javascript?
-// Ans: we have 5 falsy values in js,0 , " ", undefined, NaN, false** is false anyway 
+// Ans: we have 5 falsy values in js,0 , " ", undefined, NaN, false** is false anyway
 // if (score = 0) {
 //     console.log('omg, we loss the game 🥈');
 // }else{
@@ -208,19 +206,15 @@
 //         console.log('the area of circle is :' + pi*r**2);
 //         break;
 //     case 'triangle':
-//          console.log('the area of triangle is :' + (l*b)/2);    
+//          console.log('the area of triangle is :' + (l*b)/2);
 //          break;
 //     case 'square':
-//         console.log('this is the value of  square: square');     
+//         console.log('this is the value of  square: square');
 //         break;
 //     default:
-        //  console.log('this is a quebe ');
+//  console.log('this is a quebe ');
 //         break;
 // }
- 
-
-
-
 
 // .while loop :
 // the while statement creates a loop that executes a specified statement as long as the test condition evaluates to true.
@@ -230,31 +224,27 @@
 //  while(number <= 10){
 //      console.log(number);
 //      number++;
- 
-
 
 // .do-while loop ;
 // var num = 0;
 // do {
 //     console.log(num);
 //     num++;
-    
+
 // } while (num <=10);
-
-
 
 // . for loop -------
 // syntax :
 
 // for(initializer; condition ; iteration)
 {
-    //code to be executed
+  //code to be executed
 }
 
 // for (let index = 0; index < array.length; index++) {
 //     const element = array[index];
-    
-// } 
+
+// }
 // for(var num = 0 ; num <=10; num++){
 //     debugger;
 //     console.log(num);
@@ -265,24 +255,175 @@
 // for(num = 0; num < 11 ; num++ ){
 //     console.log(num*9);
 // }
+// . for in loop
 
-
-
-
-
-// . for in loop 
-
-// .for of loop 
+// .for of loop
 
 // .conditional (ternary) operator
 // The conditional operator is the only javascript operator that takes three operands .and also its upgrade version of if ,else
 
-        //var age         (age>18)  if true   if false 
+//var age         (age>18)  if true   if false
 
 // syntax : variablename = (condition)? value 1: value2;
 
 // var age = 17;
 // console.log((age>=18)? 'you can vote': "you can't vote");
+
+//FUNCTIONS IN JAVASCRIPT;
+
+// A javascript function is a block of code designed to perform a particular task.
+
+// // syntax:
+//  function functionName(parameters) {
+//     //statement   ;
+// }
+//function(arguments);
+
+// how to write a function of two digits addition:
+// var a = 10;
+// var b = 20;
+// var sum = a+b;
+// console.log(sum);
+
+// function addition(a, b) {
+//     var a = 10;
+//     var b = 20;
+//     z = a + b;
+
+//     console.log(z);
+// }
+// addition();
+// QN. what is the difference between function parameter and function arguments:
+
+// function sum(a, b) {
+//     var total = a+b;
+//     console.log(total);
+
+// }
+// sum();
+// sum(20, 30);
+// sum(40, 50);
+
+// function expression : function expression means create a function and put it in variable
+// for example:
+// var funexpression = function sum(a, b){
+//     var total = a+b;
+//     console.log(total);
+// }
+// function sum(a, b) {
+//   return (total = a + b);
+// }
+// Anonymous function expression ex:
+// var functionexpression = function(a, b){
+//     return total = a+b;
+// }
+// var sum = functionexpression(15,15);
+// var sum1 = functionexpression(150,1556);
+// console.log('the sum of two number is :'+ sum);
+
+// EXMA SCRIPT STARTS HERE 
+// let ,const ,var : 
+
+
+// var = function scope
+// let and const = block scope
+ 
+// Templetes literals (Templetes strings)
+
+// const name = 'heroallom';
+
+// console.log(`${name}`);
+// Default parametera:
+// function multi(a, b= 5){
+//     return a*b;
+// }
+// console.log(multi(3));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
