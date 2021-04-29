@@ -128,3 +128,163 @@
 // ex:
 // int a, b, c;
 // c = a>b?a:b//if a>b'execute'a,else b and assign the value to c
+// some questions:--------------------------------------
+// .what will be the output of 3**3?
+// console.log(3**3); out put 27
+// .what will be the output , when we add a number and a string?
+// console.log('ashutosh'+ 3); output: ashutosh3
+
+
+// .write a program to swap two numbers?
+
+// var a = 5;
+// var b = 10;
+// var c = b;
+// b = a;
+// a = c;
+// console.log('the value of a is :'  + a);
+// console.log('the value of b is :'  + b);
+
+// // .write a program to swap two numbers without using third variable?
+// var a = 5;
+// var b = 10;
+
+// a = a + b;
+// b = a - b;
+// a = a - b;
+
+// console.log(a, b);
+
+// what is the difference between == and === ?
+// var num1 = 5;
+// var num2 = '5';
+// console.log( num1 == num2); checking value .
+// console.log( num1 === num2); checking value with type .
+// 4.control statement and loops: ---------------
+// .if else ex:
+// var tomorrow = 'raining';
+// if(tomorrow == "raining" ){
+//     console.log('tomorrow is rainy day');
+// }else{
+//     console.log('tomorrow is hard day');
+// }
+// question - - accroding to if else condition:
+//Qn.1. wrtie a program that works out whether if a given year is leap year or not?
+
+// var year = 2020;
+// debugger;
+// if(year % 4 === 0){
+//     if(year % 100 === 0){
+//         if(year % 400 === 0){
+//             console.log('this year '+ year + 'is a leap year');
+//         }else{
+//             console.log('this year'+year+'is not a leap year');
+//         }
+//     }else{
+//         console.log('this year' + year + 'is a leap year');
+//     }
+// }else {
+//     console.log('the year'+ year + 'is not a leap year');
+// }
+// question. what is truthty and falsy values in javascript?
+// Ans: we have 5 falsy values in js,0 , " ", undefined, NaN, false** is false anyway 
+// if (score = 0) {
+//     console.log('omg, we loss the game 🥈');
+// }else{
+//     console.log('yay , we won the game 🥇');
+// }
+
+// the if statement executes
+
+// .switch statement :
+// its evaluates Expression, matching the expression's value to a case clause executes  statements associated with that case
+
+// var area = 'square';
+// var area = quebe;
+// var pi = 2.1234, l = 4, b= 4, r= 3;
+
+// switch (area) {
+//     case 'circle':
+//         console.log('the area of circle is :' + pi*r**2);
+//         break;
+//     case 'triangle':
+//          console.log('the area of triangle is :' + (l*b)/2);    
+//          break;
+//     case 'square':
+//         console.log('this is the value of  square: square');     
+//         break;
+//     default:
+        //  console.log('this is a quebe ');
+//         break;
+// }
+ 
+
+
+
+
+// .while loop :
+// the while statement creates a loop that executes a specified statement as long as the test condition evaluates to true.
+//ex;
+
+// var number = 10;
+//  while(number <= 10){
+//      console.log(number);
+//      number++;
+ 
+
+
+// .do-while loop ;
+// var num = 0;
+// do {
+//     console.log(num);
+//     num++;
+    
+// } while (num <=10);
+
+
+
+// . for loop -------
+// syntax :
+
+// for(initializer; condition ; iteration)
+{
+    //code to be executed
+}
+
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
+    
+// } 
+// for(var num = 0 ; num <=10; num++){
+//     debugger;
+//     console.log(num);
+
+// }
+// qn . javascript program to print table for given number *(8,9,12,15)using for loop?
+
+// for(num = 0; num < 11 ; num++ ){
+//     console.log(num*9);
+// }
+
+
+
+
+
+// . for in loop 
+
+// .for of loop 
+
+// .conditional (ternary) operator
+// The conditional operator is the only javascript operator that takes three operands .and also its upgrade version of if ,else
+
+        //var age         (age>18)  if true   if false 
+
+// syntax : variablename = (condition)? value 1: value2;
+
+// var age = 17;
+// console.log((age>=18)? 'you can vote': "you can't vote");
+
+
+
+
+
