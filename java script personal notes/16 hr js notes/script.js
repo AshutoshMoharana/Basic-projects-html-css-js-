@@ -340,14 +340,23 @@
 // console.log(multi(3));
 
 
+// Fat arrow function ex; first define then call
+// const sum=()=>{
+//     let a = 5; b = 6;
+//     let sum = a+b;
+//     return ` the sum of the number is ${sum}`
+// }
+// console.log(sum());
+
+// or we can write also:
+ 
+// const sum = () =>`the sum of the two number is ${a+b}`
+// console.log(5, 7);
 
 
-
-
-
-
-
-
+// 6.Array in JAVASCRIPT;
+// var names = ['vinod', 'bahadur', 'lol'];
+// console.log(names[1]);
 
 
 
