@@ -321,13 +321,12 @@
 // var sum1 = functionexpression(150,1556);
 // console.log('the sum of two number is :'+ sum);
 
-// EXMA SCRIPT STARTS HERE 
-// let ,const ,var : 
-
+// EXMA SCRIPT STARTS HERE
+// let ,const ,var :
 
 // var = function scope
 // let and const = block scope
- 
+
 // Templetes literals (Templetes strings)
 
 // const name = 'heroallom';
@@ -339,7 +338,6 @@
 // }
 // console.log(multi(3));
 
-
 // Fat arrow function ex; first define then call
 // const sum=()=>{
 //     let a = 5; b = 6;
@@ -349,14 +347,130 @@
 // console.log(sum());
 
 // or we can write also:
- 
+
 // const sum = () =>`the sum of the two number is ${a+b}`
 // console.log(5, 7);
 
-
 // 6.Array in JAVASCRIPT;
 // var names = ['vinod', 'bahadur', 'lol'];
+// Traversal in Array ;
 // console.log(names[1]);
+
+//checking length  of array;
+// console.log(arrayname.length);
+
+// for in loop and for of loop :
+
+// var myFriends = ["vinod", "ramesh", "arjun", "vishal"];
+// debugger;
+//  for loop:
+// for(var i = 0; i < myFriends.length; i++) {
+//   console.log(myFriends[i]);
+// }
+// for in loop :in this loop we can get index of elements;
+// ex ;
+
+// for(let elements in myFriends){
+//   console.log(elements);
+// }
+// for off loop (it returns the elements of array)
+// for(let elements of myFriends){
+//   console.log(elements);
+// }
+// for each loop: its  calls a function for each elements in the array.
+
+// myFriends.forEach(function(element, index, array){
+//   console.log(element +"index of : "+index + array);
+
+// 2.Array subsection : searching and filter in an array 
+
+// 3.Array.prototype.push()
+// the push() method adds one or more elements to the end of an array and returns the new length of the array 
+
+// const animals = ['pigs',"goats","sheep"]
+
+// animals.push('chicken');
+// console.log(animals);
+
+// Array unshift() : if we want to add element at the starting of the array then we use unshift.
+
+// animals.unshift('heroallom');
+
+// console.log(animals);
+
+// Array pop() its returns the element which we want and it changes the array length.
+
+// const plants = ['brocoli', "cauliflower", "kale", "tomato", 'cabbage'];
+
+// plants.pop(-1); //console.log*(plants.pop());
+// console.log(plants);
+
+// we can remove the first element from the array by using shift
+// plants.shift(0);
+// console.log(plants);
+
+
+// qn 1.. Add dec at the end of an array? using only one method
+// .2/ what is the return value of splice method? Ans:[]
+//3.update march to March (update)?
+//4,delete june from an array?
+// const months = ['jan','march','april','june','july'];
+
+// Ans 1 :
+// // const newMonth = months.splice(5, 0, 'Dec') ; or we can write:
+// const newMonth = months.splice(months.length, 0, 'Dec');
+// console.log(months);
+// console.log(newMonth);
+// Ans3: 
+// const updatemonth = months.splice(1,1, "March");
+// console.log(months);
+
+// using indexof() method or its called searching method
+
+// const indexofMonth = months.indexOf('march')
+
+// if(indexofMonth != -1 ){
+//   const updatemonth = months.splice(indexofMonth,1, "march");
+//   console.log(months);
+
+// }else{
+//   console.log('no such data found');
+// }
+
+// 5.Array subsection: Map and Reduce Method 
+// map methods returns a new array containing the results of calling a function on every element in this array.
+
+
+// const array1 = [1,4,9,16,25];
+
+// let newArr = array1.map((curElem, index,arr)=>{
+//   return curElem > 9;
+// })
+// console.log(newArr);
+// let newArr = array1.map((currelem, index, array )=>{
+//   return `index no =${index} and the value is ${currelem} belongs to ${array} `
+// })
+
+// console.log(newArr);
+// instead of map we use for each
+
+// let newArr = array1.forEach((currelem, index, array )=>{
+//   return `index no =${index} and the value is ${currelem} belongs to ${array} `
+// })
+
+// console.log(newArr);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
