@@ -460,21 +460,42 @@
 
 // console.log(newArr);
 
+// Qn 1. find the square root of each element in an array?
+
+// 2.Multiply each element by 2 return only those elements which are greater then 10? 
+// given array[25,36,49,64,81] 
+
+// let arr = [25,36,49,64,81];
+// let arrSqr = arr.map((currentelement)=>{
+//   return currentelement;
+// } )
+// console.log(arrSqr); or we can solve by below:
+// let arrSqr = arr.map((curelem)=>{
+//   return Math.sqrt(curelem);
+// })
+// console.log(arrSqr);
 
 
+// qn no2. let arr = [2,3,4,6,8]; using chaining method
 
+// let arr = [2,3,4,6,8];
 
+// let arr2 = arr.map((currelem) => {
+//   return currelem*2;
+// }).filter((currelem)=>{
+//   return currelem > 10;
+// })
+// console.log(arr2);
 
+// Reduce Method :
+// flatten an array means to convert the 3rd or 2nd array into a single dimensional array the reducer function takes four arguments:i.e :  Accumulator, current value, current index, source array,in one word we can get value in single.
 
+// let arr = [5, 6, 2 ]
 
-
-
-
-
-
-
-
-
+// let sum = arr.reduce((accumulator, currelem, index, arr)=>{
+//   return accumulator *= currelem; 
+// })
+// console.log((sum));
 
 
 
