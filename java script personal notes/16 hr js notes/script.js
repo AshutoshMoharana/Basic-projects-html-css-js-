@@ -497,43 +497,71 @@
 // })
 // console.log((sum));
 
+// How to fatten an array 
+// coverting 2d and 3d array into one dimensional array 
+
+// const arr = [
+//             ['zone_1', 'zone2' ],
+//             ['zone_3', 'zone 4'],
+//             ['zone_5', 'zone 6'],
+//             ['zone_7', 'zone 8']
+
+// ];
 
 
+// let flatArr = arr.reduce((accum, currval)=>{
+//   return accum.concat(currval);
+
+// })
+// console.log((flatArr));
+
+// string: qn. create a string using string constructor
+
+// let ytname = new String('hello world')
+
+// console.log(ytname);
+ 
+//if we want to find the length of the string then:
+// let myName = 'vinod thapa'
+// console.log(myName.length);
+
+//finding a string in a string:
+
+// const mybiodata = 'i am a human ';
+
+// console.log(mybiodata.indexOf('human'));
+// console.log(mybiodata.search('human'));//in search method wecan't put the second . 
 
 
+// Extracting string parts :there are 3types of extraction:
+// slice(start, end)
+// substring(start,end)
+// substr(start,length)
 
 
+// var str = "apple', 'Bananna', 'kiwi"
+
+// let res = str.slice(9, 12)
 
 
+// console.log(res);
 
 
+// qn. display only 280 characters of a string like the one used in twitter?
 
 
+// // let myTweets = "dolor, sit amet consectetur adipisicing elit. Qullo corporis eum esse nam rem aliquam nulla possimus temporibus veritatis error odio nisi asperiores!"
 
+// let my280tweets = myTweets.slice(0, 280);
+// console.log(my280tweets);
 
+// using substring: is similar to slice and difference is that substring cannot accept negative indexes.
 
+// var str = 'apple, bannana, kiwi';
+// let res = str.substr(0, 5);
+// console.log(res);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// continue onwords 7:17:19 : Replacing string content()
 
 
 
