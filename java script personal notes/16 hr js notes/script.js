@@ -563,13 +563,123 @@
 
 // continue onwords 7:17:19 : Replacing string content()
 
+// let mybio = `I am a human being.`;
+
+// let replacedata = mybio.replace('human', 'animal');
+
+// console.log(replacedata);
+
+
+//extracting string characters;
+
+// there are 3 methods for extracting string characters:
+
+//charAt(position)
+//charCodeAt(position)
+// Property access [ ]
+
+
+//charAt(); it returns the character at a specified index in a string.
+
+// let str = 'hello world'
+
+// console.log(str.charAt(2));
+
+// // charCodeAt(0):  its returns the utf-16 code of letter
+
+// console.log(str.charCodeAt(3));
+
+//qn . Return the unicode of the last character in a string 
+
+// let str = 'hello ewodlfjdkfjjjjjjjjjjjjjjjjjjd';
+// let lastchar = str.length -1;
+// console.log(str.charCodeAt(lastchar));
+
+
+// property access 
+// ecmascript 
+
+// var str = 'hello world';
+
+// console.log(str[0]);
+
+// Other usefull methods:
+//toUpperCase(),toLowerCase()
 
 
 
+//concat () method:
+// let fname ='hero'
+// let lname = 'alom'
+
+// console.log(fname.concat(lname));
+// console.log(`${fname} ${lname}`);
+
+// String Trim method()
+// var str = '        hello world'
+// console.log(str.trim());
+
+
+//converting a string to an Array
+// A string can be converted to an array with the split()method
+
+// var txt = 'a, b, c, d, e, f'
+// console.log(txt.split('|'));
+
+
+// Date and Time in javascript ()
+
+ //new Date() get method 🥇
+
+//  let currDate = new Date();
+//  console.log(currDate);
+// console.log(new Date().toLocaleString());
+// console.log(new Date().toString());
+
+// console.log(Date.now());
+
+ 
+// var d = new Date('October 13, 2021 11:13:00');
+// console.log(d.toLocaleString());
+
+// var curDate = new Date();
+// console.log(curDate.toLocaleString());
+// console.log(curDate.getFullYear());
+// console.log(curDate.getMonth());
+// console.log(curDate.getDate());
+// console.log(curDate.getDay());
 
 
 
+// math property in javascript 
 
+// console.log(Math.PI);
+
+// let num = 10.6565;
+
+// console.log(Math.round(num));
+
+// console.log(Math.pow(2,3));
+
+// console.log(Math.sqrt(25));
+
+// console.log(Math.abs(-55));
+
+// console.log(Math.ceil(5.01)); //its increasing if after  decimal(.) increases
+// console.log(Math.round(4.51)); //its rounded to nearest.
+
+// console.log(Math.floor(4.7));
+
+// console.log(Math.floor(4.1)); //its decreasing if after decimal(.) increases
+
+// console.log(Math.max(0,150,30,20,-8,-200));
+
+// console.log(Math.random()*10); //its shows random number
+
+// its returns the integer part of a number trunc():
+
+// console.log(Math.trunc(4.6)); 
+ 
 
 
 
