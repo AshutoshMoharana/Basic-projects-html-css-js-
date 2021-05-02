@@ -680,7 +680,12 @@
 
 // console.log(Math.trunc(4.6)); 
  
+// windows: .navigator,screen,location,frames, history,XMLHttpRequest 
 
+//javascript:object , array, function.
+
+
+//dom tree:document>html>body>head>a>p>div>etc
 
 
 
