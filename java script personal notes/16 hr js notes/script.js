@@ -688,14 +688,22 @@
 //dom tree:document>html>body>head>a>p>div>etc
 
 
+// using querySelectorAll we can manupulate data using id and class also
+
+// console.log(document.querySelectorAll('#heading'));
+// console.log(document.querySelectorAll('.style'));
+
+//using tagname we can select and manipulate the data  with- out using  class name and id 
+// console.log(document.getElementsByTagName('p'));
 
 
+// Qn. what is the difference between getelementbyid and queryselector:
 
-
-
-
-
-
+// 4 ways of writing events in javascript 👍
+// 1.using alert()
+// 2.by calling a function ()
+// 3.using inline events (html onclick="" properly and element.onclick)
+// 4.using Event listners (addEventListener and IE's attactEvent)
 
 
 
