@@ -704,14 +704,19 @@
 // 2.by calling a function ()
 // 3.using inline events (html onclick="" properly and element.onclick)
 // 4.using Event listners (addEventListener and IE's attactEvent)
+//mouse event : mouseDown() and mouseUp() mouseenter() mouseleave()
+// KeyboardEvent in javascript :
+// onkeypress(),onkeyup(),onkeypress()
+//events details:
+
+// console.log((event));
+// console.log(event.target);
+// console.log(event.type);
 
 
+ 
 
-
-
-
-
-
+ 
 
 
 
