@@ -382,10 +382,10 @@
 // myFriends.forEach(function(element, index, array){
 //   console.log(element +"index of : "+index + array);
 
-// 2.Array subsection : searching and filter in an array 
+// 2.Array subsection : searching and filter in an array
 
 // 3.Array.prototype.push()
-// the push() method adds one or more elements to the end of an array and returns the new length of the array 
+// the push() method adds one or more elements to the end of an array and returns the new length of the array
 
 // const animals = ['pigs',"goats","sheep"]
 
@@ -409,7 +409,6 @@
 // plants.shift(0);
 // console.log(plants);
 
-
 // qn 1.. Add dec at the end of an array? using only one method
 // .2/ what is the return value of splice method? Ans:[]
 //3.update march to March (update)?
@@ -421,7 +420,7 @@
 // const newMonth = months.splice(months.length, 0, 'Dec');
 // console.log(months);
 // console.log(newMonth);
-// Ans3: 
+// Ans3:
 // const updatemonth = months.splice(1,1, "March");
 // console.log(months);
 
@@ -437,9 +436,8 @@
 //   console.log('no such data found');
 // }
 
-// 5.Array subsection: Map and Reduce Method 
+// 5.Array subsection: Map and Reduce Method
 // map methods returns a new array containing the results of calling a function on every element in this array.
-
 
 // const array1 = [1,4,9,16,25];
 
@@ -462,8 +460,8 @@
 
 // Qn 1. find the square root of each element in an array?
 
-// 2.Multiply each element by 2 return only those elements which are greater then 10? 
-// given array[25,36,49,64,81] 
+// 2.Multiply each element by 2 return only those elements which are greater then 10?
+// given array[25,36,49,64,81]
 
 // let arr = [25,36,49,64,81];
 // let arrSqr = arr.map((currentelement)=>{
@@ -474,7 +472,6 @@
 //   return Math.sqrt(curelem);
 // })
 // console.log(arrSqr);
-
 
 // qn no2. let arr = [2,3,4,6,8]; using chaining method
 
@@ -493,12 +490,12 @@
 // let arr = [5, 6, 2 ]
 
 // let sum = arr.reduce((accumulator, currelem, index, arr)=>{
-//   return accumulator *= currelem; 
+//   return accumulator *= currelem;
 // })
 // console.log((sum));
 
-// How to fatten an array 
-// coverting 2d and 3d array into one dimensional array 
+// How to fatten an array
+// coverting 2d and 3d array into one dimensional array
 
 // const arr = [
 //             ['zone_1', 'zone2' ],
@@ -507,7 +504,6 @@
 //             ['zone_7', 'zone 8']
 
 // ];
-
 
 // let flatArr = arr.reduce((accum, currval)=>{
 //   return accum.concat(currval);
@@ -520,7 +516,7 @@
 // let ytname = new String('hello world')
 
 // console.log(ytname);
- 
+
 //if we want to find the length of the string then:
 // let myName = 'vinod thapa'
 // console.log(myName.length);
@@ -530,25 +526,20 @@
 // const mybiodata = 'i am a human ';
 
 // console.log(mybiodata.indexOf('human'));
-// console.log(mybiodata.search('human'));//in search method wecan't put the second . 
-
+// console.log(mybiodata.search('human'));//in search method wecan't put the second .
 
 // Extracting string parts :there are 3types of extraction:
 // slice(start, end)
 // substring(start,end)
 // substr(start,length)
 
-
 // var str = "apple', 'Bananna', 'kiwi"
 
 // let res = str.slice(9, 12)
 
-
 // console.log(res);
 
-
 // qn. display only 280 characters of a string like the one used in twitter?
-
 
 // // let myTweets = "dolor, sit amet consectetur adipisicing elit. Qullo corporis eum esse nam rem aliquam nulla possimus temporibus veritatis error odio nisi asperiores!"
 
@@ -569,7 +560,6 @@
 
 // console.log(replacedata);
 
-
 //extracting string characters;
 
 // there are 3 methods for extracting string characters:
@@ -577,7 +567,6 @@
 //charAt(position)
 //charCodeAt(position)
 // Property access [ ]
-
 
 //charAt(); it returns the character at a specified index in a string.
 
@@ -589,15 +578,14 @@
 
 // console.log(str.charCodeAt(3));
 
-//qn . Return the unicode of the last character in a string 
+//qn . Return the unicode of the last character in a string
 
 // let str = 'hello ewodlfjdkfjjjjjjjjjjjjjjjjjjd';
 // let lastchar = str.length -1;
 // console.log(str.charCodeAt(lastchar));
 
-
-// property access 
-// ecmascript 
+// property access
+// ecmascript
 
 // var str = 'hello world';
 
@@ -605,8 +593,6 @@
 
 // Other usefull methods:
 //toUpperCase(),toLowerCase()
-
-
 
 //concat () method:
 // let fname ='hero'
@@ -619,17 +605,15 @@
 // var str = '        hello world'
 // console.log(str.trim());
 
-
 //converting a string to an Array
 // A string can be converted to an array with the split()method
 
 // var txt = 'a, b, c, d, e, f'
 // console.log(txt.split('|'));
 
-
 // Date and Time in javascript ()
 
- //new Date() get method 🥇
+//new Date() get method 🥇
 
 //  let currDate = new Date();
 //  console.log(currDate);
@@ -638,7 +622,6 @@
 
 // console.log(Date.now());
 
- 
 // var d = new Date('October 13, 2021 11:13:00');
 // console.log(d.toLocaleString());
 
@@ -649,9 +632,7 @@
 // console.log(curDate.getDate());
 // console.log(curDate.getDay());
 
-
-
-// math property in javascript 
+// math property in javascript
 
 // console.log(Math.PI);
 
@@ -678,24 +659,21 @@
 
 // its returns the integer part of a number trunc():
 
-// console.log(Math.trunc(4.6)); 
- 
-// windows: .navigator,screen,location,frames, history,XMLHttpRequest 
+// console.log(Math.trunc(4.6));
+
+// windows: .navigator,screen,location,frames, history,XMLHttpRequest
 
 //javascript:object , array, function.
 
-
 //dom tree:document>html>body>head>a>p>div>etc
-
 
 // using querySelectorAll we can manupulate data using id and class also
 
 // console.log(document.querySelectorAll('#heading'));
 // console.log(document.querySelectorAll('.style'));
 
-//using tagname we can select and manipulate the data  with- out using  class name and id 
+//using tagname we can select and manipulate the data  with- out using  class name and id
 // console.log(document.getElementsByTagName('p'));
-
 
 // Qn. what is the difference between getelementbyid and queryselector:
 
@@ -713,13 +691,118 @@
 // console.log(event.target);
 // console.log(event.type);
 
+// Timing based events in javascript
 
+// setTimeout()
+// setInterval()
+// clearTimeout()
+// clearInterval()
+
+//what is object literal?
+// Ans: Object literal is simply a key:value pair data structure.storing variables and functions together in one container.we can refer this as an objects.
+
+//how to create an object?
+
+//  what if we want object as a value inside an object:
+
+// let biodata = {
+//   myname : {
+//     realname: 'vinod',
+//     channelname: 'Nath'
+//   },
+//   myage:26,
+//   getData(){
+//     console.log(`my name is ${biodata.myname} and my age is ${biodata.myage}`);
+//   }
+// }
+// console.log(biodata.myname.channelname);
+
+//what is this object?
+
+//the definition of "this" object is that it contain the current context.the this object can have different values depending on where it is placed.
+
+// console.log(this.alert('awsome'));
+// function myname(){
+//   console.log(this);
+
+// }
+// myname();
+
+// let myname = 'vinod'
+// function myname() {
+//   console.log(this.myname);
+
+// }
+// myname();
+// const obj = {
+//   myAge: 26,
+//   myname() {
+//     console.log(this.myAge);
+//   }
+// }
+// obj.myname();
  
+// Array Destructuring:
 
+// const mybiodata = ['Ashutosh','Mickey','Dipu'];
  
+// // let [myfname, mylname, myAge] = mybiodata;
+// //or we can add values to array too:
+// let [myfname,mylname, myAge, mybio="herolaom"] = mybiodata;
+
+// console.log(mybiodata);
+// console.log(myfname);
+// console.log(mybio);
+
+//object properties : 
+// let myname = 'Ashutosh';
+// const mybio ={
+//   myname :'hello how are you',
+   
+// }
+// we can write this also object property
+// let myname = 'ashutosh'
+// let myage = 28;
+
+// const mybio = {myname, myage}
+// console.log(mybio);
+
+// spreed operrator:
+
+// const colors = ['red','green', 'blue','white'];
+
+// const mycolors = ['red','green','blue','white','yellow','black'];
 
 
+// const newcolors = [...mycolors,'dipika','neha']
 
+// console.log(newcolors);
+
+
+// es8:
+
+// string padding
+// const message = 'my name is Ashutosh'
+// console.log(message);
+// console.log(message.padStart(5));
+// console.log(message.padEnd(10)); 
+// object.values()
+// const person = {name:'fred', age : 87};
+// console.log(Object.values(person));
+// //object.entries()
+// console.log(Object.entries(person));
+
+// // we can ...in object also 
+// const person = {name:'Ashutosh', age:'moharana'};
+// const sperson = {...person};
+
+// console.log(person);
+// console.log(sperson);
+
+
+// es2019 :in this esma script we can add multiple arrays in one array using flat method()
+// syntax:
+// console.log(arr.flat(infinity));
 
 
 
