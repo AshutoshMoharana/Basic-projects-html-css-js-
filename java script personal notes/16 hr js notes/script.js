@@ -804,6 +804,18 @@
 // syntax:
 // console.log(arr.flat(infinity));
 
+// we use Object.entries for object to array  if we array to object then we use object entries
+
+// 12:00:21 onwards
+
+
+
+
+
+
+
+
+
 
 
 
