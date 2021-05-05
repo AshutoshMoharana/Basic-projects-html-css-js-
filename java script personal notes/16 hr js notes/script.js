@@ -741,11 +741,11 @@
 //   }
 // }
 // obj.myname();
- 
+
 // Array Destructuring:
 
 // const mybiodata = ['Ashutosh','Mickey','Dipu'];
- 
+
 // // let [myfname, mylname, myAge] = mybiodata;
 // //or we can add values to array too:
 // let [myfname,mylname, myAge, mybio="herolaom"] = mybiodata;
@@ -754,11 +754,11 @@
 // console.log(myfname);
 // console.log(mybio);
 
-//object properties : 
+//object properties :
 // let myname = 'Ashutosh';
 // const mybio ={
 //   myname :'hello how are you',
-   
+
 // }
 // we can write this also object property
 // let myname = 'ashutosh'
@@ -773,11 +773,9 @@
 
 // const mycolors = ['red','green','blue','white','yellow','black'];
 
-
 // const newcolors = [...mycolors,'dipika','neha']
 
 // console.log(newcolors);
-
 
 // es8:
 
@@ -785,20 +783,19 @@
 // const message = 'my name is Ashutosh'
 // console.log(message);
 // console.log(message.padStart(5));
-// console.log(message.padEnd(10)); 
+// console.log(message.padEnd(10));
 // object.values()
 // const person = {name:'fred', age : 87};
 // console.log(Object.values(person));
 // //object.entries()
 // console.log(Object.entries(person));
 
-// // we can ...in object also 
+// // we can ...in object also
 // const person = {name:'Ashutosh', age:'moharana'};
 // const sperson = {...person};
 
 // console.log(person);
 // console.log(sperson);
-
 
 // es2019 :in this esma script we can add multiple arrays in one array using flat method()
 // syntax:
@@ -807,6 +804,42 @@
 // we use Object.entries for object to array  if we array to object then we use object entries
 
 // 12:00:21 onwards
+// please search notes on 
+//event propagation
+//bigint,??
+
+// ("use strict"); 
+// x = 3.14;
+// console.log(x);
+
+
+// Asynchronous in javascript and synchronous ?
+
+// synchronous means one task after another task in simple word in queue. and Asynchronous means whole task at a time.
+
+// function addition(a,b,c) {
+//   console.log(a+b+c);
+  
+// }
+
+// addition(2,3,4);
+
+// currying addition of two number
+
+// const sum = (num1)=>(num2)=>(num3)=>console.log(num1+num2+num3);
+
+// sum(4)(5)(8);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
