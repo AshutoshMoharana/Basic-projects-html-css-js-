@@ -11,5 +11,6 @@
     "world"
   ],
   "author": "Ashutosh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
