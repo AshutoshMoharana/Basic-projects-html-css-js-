@@ -1,0 +1,14 @@
+{
+  "name": "tut69",
+  "version": "1.0.0",
+  "description": "this is the tutorial for initiiation of npm",
+  "main": "tut69.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "Ashutosh",
+  "license": "ISC"
+}
